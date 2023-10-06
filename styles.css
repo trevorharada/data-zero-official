@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    border-radius: 7px;
+    padding: 5px 20px;
+    background-color: red;
+    border: 2px solid white;
+}
+
+.main-text {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.description.secondary-text {
+    color: #1f2937;
+}
+
+.title-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #e5e7eb;
+}
+
+.subtitle-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-name {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.top,
+.footer {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px 0px;
+    margin: 0;
+}
+
+.instagram-logo {
+    height: auto;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.youtube-logo {
+    height: auto;
+    width: 60px;
+    padding-top: 2px;
+}
+
+.twitter-logo {
+    height: auto;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+.rumble-logo {
+    height: auto;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.facebook-logo {
+    height: auto;
+    width: 35px;
+    margin-left: 5px;
+}
+
+.top-logos {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+.logo {
+    font-weight: bold;
+}
+
+.top-content {
+    display: flex;
+    align-items: center;
+    padding: 64px 128px 128px;
+    gap: 32px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.top-words {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.top-video {
+    height: 450;
+    width: 255;
+    flex: 1;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px 128px;
+    gap: 64px;
+}
+
+.upper-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.one,
+.two,
+.three,
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 16px;
+}
+
+.content-img {
+    width: 150px;
+    height: auto;
+    border: 5px solid red;
+    border-radius: 10px;
+    transition: .3s;
+    transition-delay: .3s;
+}
+
+.content-img:hover {
+    transform: scale(1.75);
+}
+
+.lower {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 128px;
+    margin: 0;
+    gap: 8px;
+}
+
+.lower-content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 0 128px 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+}
+
+.bottom-content {
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 128px;
+    gap: 32px;
+}
+
+.bottom-title {
+    font-weight: bold;
+}
+
+.button-bottom {
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.disclaimer {
+    font-style: italic;
+}
